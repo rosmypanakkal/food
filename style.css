@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Courgette&family=Dancing+Script&family=Lobster&family=Lora:ital@1&family=Oswald:wght@300&family=Poppins:ital,wght@0,700;0,800;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:  rgb(71, 2, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 55px;
+    top: 0;
+}
+
+/* destenet  */
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    color: white;
+    /* to avoid underline */
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(194, 7, 7);
+    text-shadow: 5px 5px 8px rgb(177, 16, 16);
+}
+video{
+    width: 100%;
+
+}
+
+div.row,div.row1,div.row2{
+   width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+
+    
+}
+
+.col{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border:solid  ;
+    border-color: white;
+    border-radius: 15%;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+footer h3,p{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color:  rgb(55, 2, 12);
+    color: white;
+   
+  
+}
+button{
+    background-color:  rgb(71, 2, 16);
+    color: white;
+}
+button:hover
+{
+    color: yellowgreen;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15%;
+}
+h1{
+    font-family: 'Courgette', cursive;
+    color: rgb(208, 239, 237);
+    text-align: justify;
+    
+}
+ 
+
